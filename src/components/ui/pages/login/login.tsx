@@ -39,6 +39,7 @@ export const LoginUI: FC<LoginUIProps> = ({
           </div>
           <div className='pb-6'>
             <PasswordInput
+              data-testid='password-input'
               onChange={(e) => setPassword(e.target.value)}
               value={password}
               name='password'
