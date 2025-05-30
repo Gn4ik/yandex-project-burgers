@@ -1,7 +1,6 @@
 import React, { FC, useMemo } from 'react';
-import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { RootState, useDispatch } from '../../services/store';
+import { RootState, useDispatch, useSelector } from '../../services/store';
 import { BurgerConstructorUI } from '@ui';
 import {
   placeOrder,
