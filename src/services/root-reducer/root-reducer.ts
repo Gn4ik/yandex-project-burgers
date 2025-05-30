@@ -1,8 +1,8 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import authReducer from '../slices/auth-slice';
-import ingredientsReducer from '../slices/ingredient-slice';
-import burgerReducer from '../slices/burger-slice';
-import feedReducer from '../slices/feed-slice';
+import authReducer from '../slices/authSlice/auth-slice';
+import ingredientsReducer from '../slices/ingredientsSlice/ingredients-slice';
+import burgerReducer from '../slices/burgerSlice/burger-slice';
+import feedReducer from '../slices/feedSlice/feed-slice';
 
 const rootReducer = combineReducers({
   auth: authReducer,

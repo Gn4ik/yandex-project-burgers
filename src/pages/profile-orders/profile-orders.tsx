@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from '../../services/store';
-import { fetchOrders } from '../../services/slices/feed-slice';
+import { fetchOrders } from '../../services/slices/feedSlice/feed-slice';
 import { ProfileOrdersUI } from '@ui-pages';
 import { Preloader } from '@ui';
 

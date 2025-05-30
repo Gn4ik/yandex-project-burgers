@@ -9,7 +9,7 @@ import { BurgerConstructorUIProps } from './type';
 import { TConstructorIngredient } from '@utils-types';
 import { BurgerConstructorElement, Modal } from '@components';
 import { Preloader, OrderDetailsUI } from '@ui';
-import { removeIngredient } from '../../../../src/services/slices/burger-slice';
+import { removeIngredient } from '../../../services/slices/burgerSlice/burger-slice';
 import { useDispatch } from '../../../../src/services/store';
 
 export const BurgerConstructorUI: FC<BurgerConstructorUIProps> = ({

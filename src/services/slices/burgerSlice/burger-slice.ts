@@ -1,9 +1,9 @@
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
 import { TConstructorIngredient, TOrder } from '@utils-types';
-import { orderBurgerApi } from '../../utils/burger-api';
-import { addOrder, fetchOrders } from './feed-slice';
+import { orderBurgerApi } from '../../../utils/burger-api';
+import { addOrder, fetchOrders } from '../feedSlice/feed-slice';
 
-type BurgerState = {
+export type BurgerState = {
   constructorItems: {
     bun: TConstructorIngredient | null;
     ingredients: TConstructorIngredient[];

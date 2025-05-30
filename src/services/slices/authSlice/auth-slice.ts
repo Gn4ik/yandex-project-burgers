@@ -6,8 +6,8 @@ import {
   getUserApi,
   refreshToken,
   updateUserApi
-} from '../../utils/burger-api';
-import { setCookie } from '../../utils/cookie';
+} from '../../../utils/burger-api';
+import { setCookie } from '../../../utils/cookie';
 
 interface User {
   email: string;

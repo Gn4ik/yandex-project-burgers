@@ -6,7 +6,7 @@ import { BurgerConstructorUI } from '@ui';
 import {
   placeOrder,
   closeOrderModal
-} from '../../services/slices/burger-slice';
+} from '../../services/slices/burgerSlice/burger-slice';
 
 export const BurgerConstructor: FC = () => {
   const dispatch = useDispatch();

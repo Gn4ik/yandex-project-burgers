@@ -1,8 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { TOrder } from '@utils-types';
-import { getOrdersApi } from '../../utils/burger-api';
+import { getOrdersApi } from '../../../utils/burger-api';
 
-type TFeedState = {
+export type TFeedState = {
   orders: TOrder[];
   isLoading: boolean;
   error: string | null;

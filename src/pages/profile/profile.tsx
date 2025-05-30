@@ -5,7 +5,7 @@ import {
   clearAuth,
   logoutUser,
   updateUser
-} from '../../services/slices/auth-slice';
+} from '../../services/slices/authSlice/auth-slice';
 import { useNavigate } from 'react-router-dom';
 
 export const Profile: FC = () => {

@@ -21,11 +21,11 @@ import { ProtectedRoute } from '../protected-route/protected-route';
 import '../../index.css';
 import styles from './app.module.css';
 import { useDispatch, useSelector } from '../../services/store';
-import { fetchUser } from '../../services/slices/auth-slice';
+import { fetchUser } from '../../services/slices/authSlice/auth-slice';
 
 import { AppHeader, IngredientDetails, Modal, OrderInfo } from '@components';
 import { useEffect } from 'react';
-import { fetchIngredients } from '../../../src/services/slices/ingredient-slice';
+import { fetchIngredients } from '../../services/slices/ingredientsSlice/ingredients-slice';
 
 const AppRoutes = () => {
   const location = useLocation();
